@@ -1,0 +1,22 @@
+<%- include head.ejs %>
+<div class="margin-top">
+  <form action="/post/new" method="POST">
+      <div>
+      <label>Titulo</label>
+     <input type="text" class="w3-input w3-border" placeholder="name" name="title">
+    </div>
+
+    <div>
+      <label>Intro</label>
+    <textarea type="text" class="w3-input w3-border" placeholder="ingrese la intro" rows="10" maxlenght="200" name="intro"></textarea>
+    </div>
+    
+    <div>
+      <label>Contenido</label>
+      <textarea type="text" rows="15" class="w3-input w3-border" name="text"></textarea>
+    </div>
+    <button type="submit" class="w3-button w3-indigo">Crear</button>
+  </div>
+  </form>
+</div>
+<%- include footer.ejs %>

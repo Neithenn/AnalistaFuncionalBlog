@@ -1,0 +1,30 @@
+<%- include head.ejs %>
+
+
+<div class="margin-top">
+ <div class="w3-center">
+      <img class="logo-img" alt="logo imagen" src="/images/goal.png"></img>
+  </div>
+<div class="w3-center">
+  <h3 class="main-title">El Analista Funcional</h3>
+</div>
+</div>
+
+  <div class="w3-panel w3-pale-indigo w3-leftbar w3-rightbar w3-border-blue">
+    <h6 class="sub-title">El blog para hablar, discutir y aprender más sobre el analisis funcional.</h6>
+  </div>
+
+  <% for(var i=(posts.length-1); i>= 0; i--) {%>
+    <div class="separador-post">
+      <h1 class="post-h1-index"><%= i+1 %>. <%= posts[i].title %></h1>
+      <p class="post-p-index"><%= posts[i].intro %></p>
+      <div class="align-right">
+        <a class="w3-button w3-indigo" href="../post/<%= posts[i].title %>/show">Leer más</a>
+      </div> 
+    </div>
+  <% } %>
+
+  <% if (user) {%>
+ <a class="w3-button w3-yellow" href="/post/new">Crear nuevo</a>
+  <% } %>
+<%- include footer.ejs %>

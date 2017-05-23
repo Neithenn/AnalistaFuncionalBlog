@@ -1,0 +1,89 @@
+.containter{
+	padding-right: calc(50% - 22.1688rem);
+	padding-left: calc(50% - 22.1688rem);
+	margin-bottom: 5%;
+	min-height: 700px;
+}
+
+.post-p-index{
+	color: #313131;
+	font-size: 20px;
+}
+
+.post-h1-index{
+	color: #3f51b5;
+	font-family:'Karma', Arial,Georgia,Times,serif;
+	font-weight: 900;
+	font-size: 36px;
+}
+
+p{
+	font-family:  'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.logo-img{
+	height: 200px;
+	width: 200px;
+		
+}
+
+.v-center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.main-title{
+	font-family:'Karma', Arial,Georgia,Times,serif;
+	font-weight: 900;
+	font-size: 48px;
+	color: #3f51b5;
+	margin-bottom: 0px;
+
+}
+
+
+
+.align-right{
+	text-align: right;
+}
+
+.div-footer{
+	border-top: 1px solid #ccc;
+	padding: 2em;
+	text-align:center;
+	color: #777;
+	font-size: 16px;
+}
+
+.separador-post{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.profile-img{
+	height: 200px;
+	width: 200px;
+}
+
+.min-height-200{
+	min-height: 200px;
+}
+.v-center3{
+    padding-top: 20px;
+}
+
+.sub-title{
+	color: #00529B;
+	font-size: 22px;
+
+}
+
+.w3-pale-indigo{
+	border-top: 1px blue solid;
+	border-bottom: 1px blue solid;
+}

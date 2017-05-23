@@ -1,0 +1,29 @@
+<%- include head.ejs %>
+
+<div class="margin-top">
+
+ <div class="w3-center">
+      <img class="logo-img" alt="logo imagen" src="/images/rocket.png"></img>
+  </div>
+
+  <div class="w3-panel w3-pale-indigo w3-leftbar w3-rightbar w3-border-blue">
+<h6 class="sub-title">Envíanos tu consulta. Ideas de nuevos post, sugerencias y mensajes. Trataré de responderte lo antes posible.</h6>
+</div>
+
+<form action="/contact" class="w3-container" method="POST">
+    <div>
+      <label>Tu Email</label>
+     <input type="email" class="w3-input w3-border" placeholder="Ingresa un email al que podamos responderte" name="email">
+    </div>
+    <div>
+      <label>Contenido</label>
+      <textarea type="text" class="w3-input w3-border" rows="15" placeholder="Ingresa tu mensaje" name="text"></textarea>
+    </div>
+    <br>
+    <button type="submit" class="w3-btn w3-indigo">Enviar</button>
+  </div>
+  </form>
+
+</div>
+
+<%- include footer.ejs %>

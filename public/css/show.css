@@ -1,0 +1,39 @@
+.post-p{
+	color: #313131;
+	font-size: 25px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.post-title{
+	font-family:'Karma', Arial,Georgia,Times,serif;
+	font-weight: 900;
+	font-size: 52px;
+	color: #3f51b5;
+}
+
+.post-containter{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.margin-top{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.post-date{
+	color: #777;
+	text-align: right;
+	font-size: 20px;
+}
+
+.highlight{
+	color: #fd256e;
+	font-weight: bold;
+}
+
+/*
+w3-tag w3-indigo
+
+*/

@@ -1,0 +1,23 @@
+{
+  "name": "blog-analista-funcional",
+  "version": "1.0.0",
+  "description": "Blog para los analistas funcionales",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Ezequiel Buceta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
